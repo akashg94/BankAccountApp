@@ -5,8 +5,8 @@ public class Checking extends Account {
     //construcotr to initilize checking account
     public Checking(String name, String ssn, double initDeposit){
         super(name,ssn, initDeposit);
-        accountNumber = "2" + accountNumber;
-       setDebitCard();
+        accountNumber = "5" + accountNumber;
+        setDebitCard();
 
     }
     //list any methods specific to the checking account
